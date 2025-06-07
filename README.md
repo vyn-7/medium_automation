@@ -6,7 +6,7 @@ A simple Python-based project to generate stories using the Deepseek API and pub
 
 ### Features
 
-- Generate stories from a prompt using Deepseek
+- Generate stories using Deepseek
 - Automate Medium login and publishing with selenium
 - Modular, maintainable code structure
 
@@ -55,7 +55,7 @@ python main.py
 
 The script will:
 
-1. Generate a story from the prompt
+1. Generate a random story
 2. Launch selenium and login to Medium
 3. Publish the generated story
 

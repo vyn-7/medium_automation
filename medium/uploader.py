@@ -12,7 +12,6 @@ class MediumUploader:
     COOKIE_FILE = "medium_cookies.pkl"
     LOGIN_URL = "https://medium.com/m/signin"
     HOME_URL = "https://medium.com/"
-    GMAIL_INBOX = "https://mail.google.com/mail/u/0/#inbox"
 
     def __init__(self, driver, timeout: int = 15):
         self.driver = driver

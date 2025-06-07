@@ -7,11 +7,11 @@ import time
 
 logger = get_logger(__name__)
 
-def run(title: str):
+def run():
     logger.info("Generating article content")
-    article = generate_article(title)
-    logger.info("Article content generated")
+    article = generate_article()
     print(article)
+    logger.info("Article content generated")
 
     logger.info("Starting Chrome WebDriver")
     driver = get_driver(headless=False) # Set to False for debugging
@@ -30,5 +30,4 @@ def run(title: str):
     driver.quit()
 
 if __name__ == "__main__":
-    title = input("What will the article be about? ")
-    run(title)
+    run()
