@@ -178,9 +178,9 @@ class MediumUploader:
             tags_input.send_keys(Keys.ENTER)
             time.sleep(0.1)
 
-        publish_button = self.wait.until(EC.element_to_be_clickable((
-            By.CSS_SELECTOR,
-            "button[data-action='publish']"
-        )))
+        #publish_button = self.wait.until(EC.element_to_be_clickable((
+        #    By.CSS_SELECTOR,
+        #    "button[data-action='publish']"
+        #)))
 
-        publish_button.click()
+        #publish_button.click()

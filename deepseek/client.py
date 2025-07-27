@@ -104,7 +104,7 @@ def generate_article():
     user_message = lambda random=False, title=None: f"""
     Replicate the work of @fyoaeuriz in Medium.
     Write an article similar to @fyoaeuriz in Medium. Must be minimum of 1,000 words. Output the result in valid JSON format only. Use '/n' to mark every paragraph break (this is required). Do not include any escaped characters or code blocks.
-    {'Pick a random genre: Life, Future, This Happened To Me, Growing Up, Productivity, Women, Mental Health, Relationship, Writing, Love, Books, Writing, Poetry. And of course still be unique.' if random else f"The article should be about '{title}'."}
+    {'Pick a random genre: Life, Future, This Happened To Me, Growing Up, Productivity, Mental Health, Relationship, Writing, Love, Books, Writing, Poetry. And of course still be unique.' if random else f"The article should be about '{title}'."}
     The article topic you will create shouldn't be similar to these previously generated articles, to avoid redundancy: {articles}.
     """
 
